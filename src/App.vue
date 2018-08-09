@@ -75,7 +75,7 @@ strong {
 }
 
 a {
-  color: #2c3e50;
+  color: #363d44;
 }
 
 .vue-typer .custom.char {
