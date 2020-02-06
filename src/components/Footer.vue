@@ -2,7 +2,7 @@
 <div class="footer-container">
   <footer>
     <div class="copyright">
-      &copy; 2018 Rebecca Song
+      &copy; 2020 Rebecca Song
     </div>
     <div class="version">
       v1.0.0
