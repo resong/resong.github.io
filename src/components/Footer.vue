@@ -5,7 +5,7 @@
       &copy; 2020 Rebecca Song
     </div>
     <div class="version">
-      v1.0.1
+      v1.0.2
     </div>
   </footer>
   </div>

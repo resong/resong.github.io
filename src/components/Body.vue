@@ -3,7 +3,7 @@
     <div class="wrapper">
       <section class="content">
         <section class="item logo">
-          <img src="../assets/imgs/orange_pixel.png" alt="orange pixel image" />
+          <img src="../assets/img/orange_leaf.png" alt="pixel art orange" />
         </section>
         <section class="item desc">
           <h1>{{ greeting }}</h1>
@@ -170,7 +170,7 @@ a:hover:after {
   display: block;
   width: 0.45rem;
   height: 0.45rem;
-  background: transparent url("../assets/imgs/leaf.png") no-repeat;
+  background: transparent url("../assets/img/leaf.png") no-repeat;
   background-size: 0.45rem;
   position: absolute;
   top: 0;
