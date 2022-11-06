@@ -1,47 +1,71 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Body from './components/Body.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <Body greeting="hi there!" />
+  <Footer />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+body {
+  background-color: #f7f7f7;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+#app {
+  font-family: Consolas, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #363d44;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
+@media (max-width: 1300px) {
+  #app {
+    font-size: 1.5rem;
   }
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+@media (max-width: 1100px) {
+  #app {
+    font-size: 1.2rem;
   }
+}
+
+@media (max-width: 480px) {
+  #app {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #app {
+    font-size: 0.7rem;
+  }
+}
+
+strong {
+  color: #50b608;
+}
+
+a {
+  color: #363d44;
+}
+
+.vue-typer .custom.char {
+  color: #ff7300;
 }
 </style>
