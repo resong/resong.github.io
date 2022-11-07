@@ -10,7 +10,7 @@ export default {
   components: {
     'vue-typer': VueTyper,
   },
-};
+} as Record<string, any>;
 </script>
 
 <template>

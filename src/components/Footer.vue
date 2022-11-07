@@ -4,14 +4,14 @@ export default {
   data: () => ({
     currYear: new Date().getFullYear(),
   }),
-};
+} as Record<string, any>;
 </script>
 
 <template>
   <div class="footer-container">
     <footer>
       <div class="copyright">&copy; {{ currYear }} Rebecca Song</div>
-      <div class="version">v1.0.2</div>
+      <div class="version">v2.0.0</div>
     </footer>
   </div>
 </template>
