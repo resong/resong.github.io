@@ -47,17 +47,32 @@ export default {
         <section class="item links">
           <ul>
             <li>
-              <a href="mailto:rebecca.song@outlook.com" target="_blank">
+              <a
+                href="mailto:rebecca.song@outlook.com"
+                target="_blank"
+                title="Email rebecca.song@outlook.com"
+                aria-label="Email rebecca.song@outlook.com with your mail client"
+              >
                 <i class="fa fa-envelope"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/resong" target="_blank">
+              <a
+                href="https://github.com/resong"
+                target="_blank"
+                title="Github Profile"
+                aria-label="Open Github profile in a new tab"
+              >
                 <i class="fa fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/resongg" target="_blank">
+              <a
+                href="https://twitter.com/resongg"
+                target="_blank"
+                title="Twitter Account"
+                aria-label="Open Twitter account in a new tab"
+              >
                 <i class="fa fa-twitter"></i>
               </a>
             </li>
